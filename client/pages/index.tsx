@@ -3,5 +3,11 @@ const styles = {
 }
 
 export default function Home() {
-  return <div className={styles.wrapper}></div>
+  return (
+    <div className={styles.wrapper}>
+      <h2>Header</h2>
+      <h2>Main</h2>
+      <h2>Transactions History</h2>
+    </div>
+  )
 }
