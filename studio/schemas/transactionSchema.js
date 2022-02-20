@@ -19,11 +19,6 @@ export const transactionSchema = {
       type: "string",
     },
     {
-      name: "txHash",
-      title: "Transaction Hash",
-      type: "string",
-    },
-    {
       name: "amount",
       title: "Amount",
       type: "number",
